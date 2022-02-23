@@ -5,6 +5,16 @@ Tips and Troubleshooting
 .. note::
     If you're having any trouble and it is not answered here, don't hesitate to :ref:`contact us<Contact>`.
 
+========================================================
+Setting up perspective lines
+========================================================
+
+.. figure:: images/good_lines.jpg
+
+    On the left, the perspective lines are too close together to provide enough information to the add-on for a good camera match.  On the right, the perspective lines are further apart and provide the best information when estimating camera orientation.
+
+When setting up perspective lines try and choose lines in an image that are far apart.  This will give the add-on the best information to estimate camera position.  Lines that are close together can be too parallel and perspective errors can be introduced.
+
 ======================================================
 Invalid Configuration
 ======================================================
@@ -23,16 +33,6 @@ To rectify this, keep adjusting the perspective axes until a valid configuration
 .. |here| raw:: html
 
    <a href="https://www.coursera.org/lecture/robotics-perception/how-to-compute-intrinsics-from-vanishing-points-jnaLs" target="_blank">here</a>
-
-========================================================
-Setting up perspective lines
-========================================================
-
-.. figure:: images/good_lines.jpg
-
-    On the left, the perspective lines are too close together to provide enough information to the add-on.  On the right, the perspective lines are further apart and provide the best information when estimating camera orientation.
-
-When setting up perspective lines try and choose lines in an image that are far apart.  This will give the add-on the best information to estimate camera position.  Lines that are close together can appear too parallel and perspective errors can be introduced.
 
 ======================================================
 I cannot see the P.Plotter Panel after installation
@@ -57,7 +57,9 @@ I cannot make the vanishing Points match a 2D sketch or photo
 
 If it is a sketch of a concept, or an image that may be distorted/cropped, it may be something to do with the image not being entirely perfect.  Double check that you are happy that the sketch's vanishing points are accurate.
 
-Try different vanishing point modes: If in 2-point mode, try experimenting with the position of the *Principal Point* (which is used to estimate the 3rd vanishing point) or switching to another perspective mode.  If in 1-point perspective mode, try experimenting with the *Focal Length* which has to be provided in this mode.
+Try different vanishing point modes: If in 2-point mode, try experimenting with the position of the :ref:`Principal Point` (which is used to estimate the 3rd vanishing point) or switching to another perspective mode.  
+
+If in 1-point perspective mode, try experimenting with the :ref:`Focal Length` which has to be provided in this mode.
 
 ======================================================
 No, I've checked, and they don't match!

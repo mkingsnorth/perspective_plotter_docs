@@ -23,7 +23,7 @@ Move Along View
 #. With the mouse hovering in the view you wish to move along, press :kbd:`Ctrl-Y` (default) or press the *Move Along View* button in *Perspective Plotter*'s side panel.
 #. Moving the mouse will change the position of the vertex or object along the view.  Guide lines are displayed in other top/down or left/right viewports to show where the view line is.
 
-You can change the viewport shortcut under the add-on's Preferences section.
+You can change the viewport shortcut under the add-on's :ref:`Preferences` section.
 
 .. note::
     There is an |alternate method| in Blender for doing this, and this tool is provided for convenience so that you do not need to switch modes whilst modelling. 
@@ -51,9 +51,9 @@ Match Background
         :alt: Match BG Image
 
 .. warning::
-    This does alter the output dimensions when rendering an image or animation.
+    This changes the output dimensions for an output image or animation.
 
-The Add-On comes with a button that allows you to quickly set the viewport output's dimensions to the camera's background image or movie.
+The Add-On comes with a button that allows you to quickly set the viewport output's dimensions to the camera's background image or video.
 
     .. image:: images/match_bg_btn.jpg
         :alt: Open BG Image
@@ -68,7 +68,7 @@ You will need to set a background image or video before pressing the button:
     .. image:: images/set_bg_select_cam.jpg
         :alt: Set BG
 
-#. In the Properties panel click on the camera properties to select it.
+#. In the Properties panel click on the camera properties tab.
 
     .. image:: images/camera_props.jpg
         :alt: Camera Properties
@@ -78,7 +78,7 @@ You will need to set a background image or video before pressing the button:
     .. image:: images/cam_props_add_bg.jpg
         :alt: Camera Properties
 
-#. Select Image or Movie clip, and click on the *Open* button.
+#. Select *Image* or *Movie clip*, and click on the *Open* button.
 
     .. image:: images/bg_image_open.jpg
         :alt: Open BG Image

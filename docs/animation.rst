@@ -42,7 +42,7 @@ Setting keyframes
 
     .. image:: images/anim_set_keyframe.gif
 
-#. Move the positon of the timeline and adjust the pespective axes to a different set up.  Click **Set Keyframe** again.
+#. Move the positon of the timeline and adjust the perspective axes to a different set up.  Click **Set Keyframe** again.
 
 #. Repeat this process to set up the camera animation.
 
