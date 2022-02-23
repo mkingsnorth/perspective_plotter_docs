@@ -1,9 +1,38 @@
 #####################################
-Troubleshooting
+Tips and Troubleshooting
 #####################################
 
 .. note::
     If you're having any trouble and it is not answered here, don't hesitate to :ref:`contact us<Contact>`.
+
+======================================================
+Invalid Configuration
+======================================================
+
+.. image:: images/invalid_config.jpg
+    :alt: Invalid Configuration
+
+The add-on uses geometry calculations described |here| to estimate camera rotation, angle and focal length.  
+
+This calculation cannot be done in certain scenarios. For instance, if the vanishing points are too parallel or fall outside the :ref:`Principal Point` of the camera lens.  
+
+If this is the case, the add-on temporarily marks the configuration as invalid and stops moving the camera.  
+
+To rectify this, keep adjusting the perspective axes until a valid configuration occurs.
+
+.. |here| raw:: html
+
+   <a href="https://www.coursera.org/lecture/robotics-perception/how-to-compute-intrinsics-from-vanishing-points-jnaLs" target="_blank">here</a>
+
+========================================================
+Setting up perspective lines
+========================================================
+
+.. figure:: images/good_lines.jpg
+
+    On the left, the perspective lines are too close together to provide enough information to the add-on.  On the right, the perspective lines are further apart and provide the best information when estimating camera orientation.
+
+When setting up perspective lines try and choose lines in an image that are far apart.  This will give the add-on the best information to estimate camera position.  Lines that are close together can appear too parallel and perspective errors can be introduced.
 
 ======================================================
 I cannot see the P.Plotter Panel after installation
@@ -14,8 +43,13 @@ The Panel will only appear if you are |viewing though the Active Camera|.
 
 .. |viewing though the Active Camera| raw:: html
 
-   <a href="https://docs.blender.org/manual/en/2.79/editors/3dview/navigate/camera_view.html">viewing though the Active Camera</a>
+   <a href="https://docs.blender.org/manual/en/2.79/editors/3dview/navigate/camera_view.html" target="_blank">viewing though the Active Camera</a>
 
+======================================================
+Resetting individual parameters
+======================================================
+
+You can reset any parameter to its default in Blender by hovering over the parameter with the mouse and pressing the **backspace** key.
 
 ============================================================================================================
 I cannot make the vanishing Points match a 2D sketch or photo

@@ -21,7 +21,7 @@ Move Along View
 
 #. Select the vertex or object that you wish to move along the viewport's line of sight.
 #. With the mouse hovering in the view you wish to move along, press :kbd:`Ctrl-Y` (default) or press the *Move Along View* button in *Perspective Plotter*'s side panel.
-#. Moving the mouse will change the position of the vertex or object along the view.  Guide lines are displayed in any other available top/down or left/right viewports to show where the view line is.
+#. Moving the mouse will change the position of the vertex or object along the view.  Guide lines are displayed in other top/down or left/right viewports to show where the view line is.
 
 You can change the viewport shortcut under the add-on's Preferences section.
 
@@ -44,16 +44,16 @@ You can change the viewport shortcut under the add-on's Preferences section.
 
 
 ====================================================================
-Match Background Image
+Match Background
 ====================================================================
 
     .. image:: images/match_bg.gif
         :alt: Match BG Image
 
 .. warning::
-    This does alter the output dimensions when rendering an image.
+    This does alter the output dimensions when rendering an image or animation.
 
-The Add-On comes with a button that allows you to quickly set the viewport output's dimensions to the camera's background image.
+The Add-On comes with a button that allows you to quickly set the viewport output's dimensions to the camera's background image or movie.
 
     .. image:: images/match_bg_btn.jpg
         :alt: Open BG Image
@@ -61,9 +61,9 @@ The Add-On comes with a button that allows you to quickly set the viewport outpu
 
 
 
-You will need to set a background image before pressing the button:
+You will need to set a background image or video before pressing the button:
 
-#. To set a background image, in the Outliner panel click on the camera object to select it.
+#. To set a background image or video, in the Outliner panel click on the camera object to select it.
 
     .. image:: images/set_bg_select_cam.jpg
         :alt: Set BG
@@ -78,17 +78,17 @@ You will need to set a background image before pressing the button:
     .. image:: images/cam_props_add_bg.jpg
         :alt: Camera Properties
 
-#. Note that the Background Source should be set to *Image* by default. Then click on the *Open* button.
+#. Select Image or Movie clip, and click on the *Open* button.
 
     .. image:: images/bg_image_open.jpg
         :alt: Open BG Image
 
-#. Locate and select your background image and click on the *Open Image* button.
+#. Locate and select your background image or video and click on the *Open Image* button.
 
     .. image:: images/open_image.jpg
         :alt: Open BG Image
 
-#. Now, in the *Perspective Plotter* panel click the "Match Background Image" button under the *Tools* tab:
+#. Now, in the *Perspective Plotter* panel click the "Match Background" button under the *Tools* tab:
 
     .. image:: images/match_bg_btn.jpg
         :alt: Open BG Image
