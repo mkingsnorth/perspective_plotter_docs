@@ -34,17 +34,19 @@ Setting keyframes
 
     .. image:: images/anim_activate.gif
 
-#. Move the position of the timeline to the frame you wish to set a keyframe, starting at zero.
-
-    .. image:: images/anim_drag_slider.gif
-
 #. Click the **Set Keyframe** button.  This will set keyframes for the camera's location, rotation and focal length at that point in time.
 
     .. image:: images/anim_set_keyframe.gif
 
-#. Move the positon of the timeline and adjust the perspective axes to a different set up.  Click **Set Keyframe** again.
+#. Move the position of the timeline to the frame you wish to set another keyframe.
 
-#. Repeat this process to set up the camera animation.
+    .. image:: images/anim_drag_slider.gif
+
+#. Adjust the perspective guides to a different position and click **Set Keyframe** again.
+
+    .. image:: images/anim_set_keyframe2.gif
+
+#. Repeat this process to set up the full camera animation.
 
     .. image:: images/anim_complete.gif
 
