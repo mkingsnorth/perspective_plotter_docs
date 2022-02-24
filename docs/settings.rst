@@ -22,7 +22,7 @@ One-Point Mode
 
 Here you define a single vanishing point using two control axes, and a horizon line direction controlled by one.  The vanishing point will always converge at the horizon line.   
 
-Because the camera needs extra depth information in this mode, a :ref:`Focal Length` parameter is provided in the parameters setting to calculate the viewing angle.
+Because the camera needs extra depth information in this mode, an editable :ref:`Focal Length` parameter is provided in the parameters setting to calculate the viewing angle.
 
 .. figure:: images/focal_length_one_point.jpg
     :alt: Perspective Plotter Controls
@@ -71,9 +71,9 @@ Focal Length
 ------------------------------------------
 
 .. note::
-    One-point perspective mode only.
+    Editable in one-point perspective mode only.
 
-This will provide further depth information to the camera when operating in one-point perspective mode.
+Focal Length value which is pre-calculated in 2 and 3 point perspective modes.  In one-point perspective mode, this will provide further depth information to the camera.
 
 Camera Distance
 ------------------------------------------
