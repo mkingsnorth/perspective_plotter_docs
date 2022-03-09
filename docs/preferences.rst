@@ -31,7 +31,35 @@ Horizon Line thickness
 
 Change the thickness of the horizon line.
 
+Grid Point color
+---------------------
 
+Change the color and transparency of the grid point.
+
+Grid Point size
+---------------------------
+
+Change the diameter of the grid point.
+
+Principal Point color
+---------------------
+
+Change the color and transparency of the principal point.
+
+Principal Point size
+---------------------------
+
+Change the diameter of the principal point.
+
+Measurement Line color
+------------------------
+
+Change the color and transparency of the measurement line.
+
+Measurement Line thickness
+---------------------------
+
+Change the thickness of the measurement line.
 
 ======================================================
 Move Along View Preferences

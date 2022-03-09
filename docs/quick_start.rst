@@ -14,12 +14,12 @@ Quick Start
     .. image:: images/pplotter_panel.jpg
         :alt: Perspective Plotter Panel
 
-#. Click the button *Plot Perspective*. The button will now say *Plotting...*. The camera will adjust to a default position with the perspective line control points set ready to be adjusted.
+#. Click the button *Plot Perspective*. The button will now say *Plotting...*. The camera will adjust to a default position with the perspective line control points ready to be adjusted.
 
     .. image:: images/pplotter_panel_plotting.jpg
         :alt: Perspective Plotter Panel
 
-#. Axis control axes will appear that allow you to align the camera to different vanishing points.  Left-Click and drag on the ends of these axes to manipulate them.  There is a pair of control axes for each vanishing point.  By default, you will be in two-point perspective mode:
+#. These perspective allow you to align the camera to different vanishing points.  Left-Click and drag on the ends of these axes to manipulate them.  There is a pair of control axes for each vanishing point.  By default, you will be in two-point perspective mode:
 
     .. image:: images/plotter_demo_1.gif
         :alt: Perspective Plotter Controls

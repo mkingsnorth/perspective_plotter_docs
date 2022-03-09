@@ -22,6 +22,7 @@ Move Along View
 #. Select the vertex or object that you wish to move along the viewport's line of sight.
 #. With the mouse hovering in the view you wish to move along, press :kbd:`Ctrl-Y` (default) or press the *Move Along View* button in *Perspective Plotter*'s side panel.
 #. Moving the mouse will change the position of the vertex or object along the view.  Guide lines are displayed in other top/down or left/right viewports to show where the view line is.
+#. Left-click the mouse button to commit the position, or right-click to cancel.
 
 You can change the viewport shortcut under the add-on's :ref:`Preferences` section.
 
@@ -92,3 +93,13 @@ You will need to set a background image or video before pressing the button:
 
     .. image:: images/match_bg_btn.jpg
         :alt: Open BG Image
+
+====================================================================
+Flatten Horizon Line
+====================================================================
+
+
+.. image:: images/flatten_horizon.gif
+    :alt: Flatten Horizon Line
+
+*Flatten Horizon Line* will attempt to adjust vanishing points to make the horizon horizontal.  Click the button on the panel and the control points will be adjusted to flatten the horizon.

@@ -75,27 +75,42 @@ Focal Length
 
 Focal Length value which is pre-calculated in 2 and 3 point perspective modes.  In one-point perspective mode, this will provide further depth information to the camera.
 
-Camera Distance
+Reference Distance
 ------------------------------------------
 
-The camera is moved away from the center of the scene by a set distance which is controlled here.
+There are parameters that will help you set the camera’s distance from the :ref:`target location`, something that cannot be determined from vanishing points alone.
 
-Offset Location
+Default: Camera Distance
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/set_camera_distance.gif
+    :alt: Using the Reference Axis
+
+By default, the camera is moved away from the :ref:`target location` by a set distance which is controlled by the **Camera Distance** parameter.
+
+Along X/Y/X Axis
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/set_along_axis.gif
+    :alt: Using the Reference Axis
+
+You can alternatively set the camera distance by measuring a line from the :ref:`target location` to a vanishing point.  This is useful when you know the length of something in the reference image.
+
+.. image:: images/set_along_axis_example.jpg
+    :alt: Using the Reference Axis
+
+To set the camera distance this way, change the “Default” setting under “Reference Distance” to “Along X, Y or Z Axis”.  
+
+You’ll see a shortened blue line appear along the camera’s scene origin to the vanishing point of the specified vanishing point axis. You can adjust this line by dragging on either end or by altering the relative points in the panel by clicking the small measuring symbol next to “Reference Length”.
+
+Grid Point
 ------------------------------------------
 
-.. image:: images/offset_location.gif
-    :alt: Offset Location
+.. image:: images/grid_point_move.gif
+    :alt: Using the Reference Axis
 
-This offsets the camera's location from the middle of the scene.
+In every mode, you’ll notice a white dot in the center of the view.  This is the position of the :ref:`target location`.  You can left click and drag this point to change the position of the grid’s center from the view.
 
-Offset Rotation
-------------------------------------------
-
-.. image:: images/offset_rotation.gif
-    :alt: Offset Rotation
-
-
-This can be used to alter the camera's rotation, relative to the center.
 
 Vanishing Point 1
 ------------------------------------------
@@ -121,7 +136,7 @@ This changes the axis for the second vanishing point (Default: Y).  The third va
 Principal Point
 ------------------------------------------
 
-.. figure:: images/principal_point.gif
+.. figure:: images/principal_point_2.gif
     :alt: Principal Point
 
 The principal point describes where the middle ray of the scene would hit the camera lens.  For one and two point perspective modes, this is assumed to also be the middle of the view by default.  
@@ -138,6 +153,31 @@ Best described in the documentation for |fSpy|:
 .. |fSpy| raw:: html
 
    <a href="https://fspy.io/">fSpy</a>
+
+
+Target Location
+------------------------------------------
+
+This is the position that the camera looks at, which is by default the center of the 3D world.
+
+You can change the target location in the side panel by selecting the “Manual” from the :ref:`Target Location` drop-down.  You will then see the location and rotation parameters to change the  target location.
+
+Location
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/offset_location.gif
+    :alt: Offset Location
+
+This offsets the camera's location from the middle of the scene.
+
+Rotation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: images/offset_rotation.gif
+    :alt: Offset Rotation
+
+
+This can be used to alter the camera's rotation, relative to the center.
 
 
 Reset Defaults
