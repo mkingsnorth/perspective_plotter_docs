@@ -18,7 +18,7 @@ Match a camera to an image with |Perspective Plotter| , an interactive |Blender|
 
 Defining perspective lines in the viewport sets a camera's focal length, location and position in real time.  The add-on will also work with more than one camera in a scene.
 
-Additional :ref:`tools<Tools>` allow you to match a camera's background image proportions, and quickly move vertices or objects along a view line.
+Additional :ref:`tools<Tools>` allow you to match a camera's background image proportions, quickly move vertices or objects along the view line, and automatically flatten the horizon.
 
 The add-on is inspired by the freely available |fSpy| application, with the added benefit of being directly inside Bender.
 
