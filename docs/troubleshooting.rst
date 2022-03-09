@@ -45,6 +45,22 @@ The Panel will only appear if you are |viewing though the Active Camera|.
 
    <a href="https://docs.blender.org/manual/en/2.79/editors/3dview/navigate/camera_view.html" target="_blank">viewing though the Active Camera</a>
 
+
+=====================================================
+How do I zoom in and move around the camera image?
+=====================================================
+
+.. image:: images/pan_zoom.gif
+    :alt: Invalid Configuration
+
+Use the mouse wheel to zoom in to the viewing border to see the image more clearly.  You can pan along the image by pressing *shift* and using the middle mouse button to click and drag along the image.
+
+==========================================================================================================
+How do I get the camera view back if I accidentally click and rotate outside?
+==========================================================================================================
+
+Press the '0' numpad key to get the Camera view back. *Perspective Plotter* will have temporarily stopped plotting: Press the **Plot Perspective** button again to resume editing.
+
 ======================================================
 Resetting individual parameters
 ======================================================

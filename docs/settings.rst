@@ -180,6 +180,12 @@ Rotation
 This can be used to alter the camera's rotation, relative to the center.
 
 
+Freeze Guides
+------------------------------------------
+
+This will freeze all viewport guide control points in place to allow you to interact with the scene without accidentally moving them.
+
+
 Reset Defaults
 ------------------------------------------
 
