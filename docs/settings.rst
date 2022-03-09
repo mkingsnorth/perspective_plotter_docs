@@ -88,7 +88,7 @@ Default: Camera Distance
 
 By default, the camera is moved away from the :ref:`target location` by a set distance which is controlled by the **Camera Distance** parameter.
 
-Along X/Y/X Axis
+Along X/Y/Z Axis
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image:: images/set_along_axis.gif
