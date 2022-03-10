@@ -19,7 +19,7 @@ Quick Start
     .. image:: images/pplotter_panel_plotting.jpg
         :alt: Perspective Plotter Panel
 
-#. These perspective lines allow you to align the camera to different vanishing points.  Left-Click and drag on the ends of these axes to manipulate them.  There is a pair of control axes for each vanishing point.  By default, you will be in two-point perspective mode:
+#. These perspective lines allow you to align the camera to different vanishing points.  Left-Click and drag on the ends of these axes to manipulate them.  There is a pair of control axes for each vanishing point.  By default, you will be in :ref:`two-point perspective<Two-Point Mode>` mode:
 
     .. image:: images/plotter_demo_1.gif
         :alt: Perspective Plotter Controls
