@@ -34,7 +34,21 @@ The add-on is inspired by the freely available |fSpy| application, with the adde
 
    <a href="https://www.blender.org/" target="_blank">Blender</a>
 
+---------------------------------
+Features
+---------------------------------
 
+* Dynamically match the camera in real time using perspective guides.
+* Choose from 1, 2 or 3 point perspective modes.
+* Determine scale of the scene using a measuring guide.
+* Animate the camera using keyframe buttons.
+* Match background image proportions.
+* Flatten horizon line automatically.
+* Customize colors and opacity of guide lines.
+* Freeze guides in place to prevent accidental changed.
+* Use the bundled :ref:`Move Along View` tool to help model 3D meshes from 2D sketches.
+* Change axes of vanishing points.
+* Change camera midpoints and camera target location.
 
 
 .. toctree::
