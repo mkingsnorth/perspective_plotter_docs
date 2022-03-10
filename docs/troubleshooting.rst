@@ -67,6 +67,12 @@ Resetting individual parameters
 
 You can reset any parameter to its default in Blender by hovering over the parameter with the mouse and pressing the **backspace** key.
 
+======================================================
+Does this add-on support lens distortion models?
+======================================================
+
+As Blender applies Lens distortion in post production, at the moment this is a future requirement and you would need to look at Blender's Movie Clip editor to resolve the distortion before doing a camera match.
+
 ============================================================================================================
 I cannot make the vanishing Points match a 2D sketch or photo
 ============================================================================================================
@@ -82,3 +88,4 @@ No, I've checked, and they don't match!
 ======================================================
 
 :ref:`Get in touch<Contact>` and we'll be very happy to check the add-on for any bugs.
+
