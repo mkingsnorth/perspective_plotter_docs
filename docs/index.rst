@@ -14,7 +14,7 @@ Perspective Plotter
 What is Perspective Plotter?
 ---------------------------------
 
-Match a camera to an image with |Perspective Plotter| , an interactive |Blender| add-on for modelers, architects and artists.  This is useful for creating 3D models from 2D sketches, matching a 3D scene to a 2D photo, or animating a camera dynamically to match a video.
+Match a camera to an image with Perspective Plotter , an interactive |Blender| add-on for modelers, architects and artists.  This is useful for creating 3D models from 2D sketches, matching a 3D scene to a 2D photo, or animating a camera dynamically to match a video.
 
 Defining perspective lines in the viewport sets a camera's focal length, location and position in real time.  The add-on will also work with more than one camera in a scene.
 
