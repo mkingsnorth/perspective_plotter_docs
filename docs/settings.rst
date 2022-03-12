@@ -160,7 +160,7 @@ Target Location
 
 This is the position that the camera looks at, which is by default the center of the 3D world.
 
-You can change the target location in the side panel by selecting the “Manual” from the :ref:`Target Location` drop-down.  You will then see the location and rotation parameters to change the  target location.
+You can change the target location in the side panel by selecting the “Manual” from the :ref:`Target Location` drop-down.  You will then see the location and rotation parameters to change the  target location. 
 
 Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -176,8 +176,12 @@ Rotation
 .. image:: images/offset_rotation.gif
     :alt: Offset Rotation
 
-
 This can be used to alter the camera's rotation, relative to the center.
+
+Set to 3D Cursor
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sets the location and rotation of the Target to the 3D cursor.
 
 
 Freeze Guides
