@@ -44,6 +44,8 @@ You can change the viewport shortcut under the add-on's :ref:`Preferences` secti
 
 
 
+
+
 ====================================================================
 Match Background
 ====================================================================
@@ -52,12 +54,16 @@ Match Background
         :alt: Match BG Image
 
 .. warning::
-    This changes the output dimensions for an output image or animation.
+    This works by updating Blender's |output dimensions| to match the background image. All camera borders share these dimensions. Changing one camera border changes every other camera border in the scene.
 
-The Add-On comes with a button that allows you to quickly set the viewport output's dimensions to the camera's background image or video.
+The Add-On comes with a button that allows you to automatically set the |output dimensions| to a camera's background image or video.
 
-    .. image:: images/match_bg_btn.jpg
-        :alt: Open BG Image
+.. |output dimensions| raw:: html
+
+   <a href="https://docs.blender.org/manual/en/2.80/render/output/settings.html#dimensions-panel">output dimensions</a>
+
+.. image:: images/match_bg_btn.jpg
+    :alt: Open BG Image
 
 
 
