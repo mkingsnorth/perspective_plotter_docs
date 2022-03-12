@@ -54,7 +54,7 @@ Match Background
         :alt: Match BG Image
 
 .. warning::
-    This works by updating Blender's |scene resolution| to match the background image. All camera borders share this resolution. Changing one camera border changes every other camera border in the scene.
+    This works by updating Blender's |scene resolution| to match the background image. All camera borders share this resolution. Changing one camera border dimensions changes every other camera border in the scene.
 
 The Add-On comes with a button that allows you to automatically set the |scene resolution| to a camera's background image or video.
 
