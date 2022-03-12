@@ -54,13 +54,13 @@ Match Background
         :alt: Match BG Image
 
 .. warning::
-    This works by updating Blender's |output dimensions| to match the background image. All camera borders share these dimensions. Changing one camera border changes every other camera border in the scene.
+    This works by updating Blender's |scene resolution| to match the background image. All camera borders share this resolution. Changing one camera border changes every other camera border in the scene.
 
-The Add-On comes with a button that allows you to automatically set the |output dimensions| to a camera's background image or video.
+The Add-On comes with a button that allows you to automatically set the |scene resolution| to a camera's background image or video.
 
-.. |output dimensions| raw:: html
+.. |scene resolution| raw:: html
 
-   <a href="https://docs.blender.org/manual/en/2.80/render/output/settings.html#dimensions-panel">output dimensions</a>
+   <a href="https://docs.blender.org/manual/en/2.80/render/output/settings.html#dimensions-panel">scene resolution</a>
 
 .. image:: images/match_bg_btn.jpg
     :alt: Open BG Image
