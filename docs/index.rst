@@ -22,6 +22,9 @@ Additional :ref:`tools<Tools>` allow you to match a camera's background image pr
 
 The add-on is inspired by the freely available |fSpy| application, with the added benefit of being directly inside Bender.
 
+This add-on assumes understanding of 1, 2 and 3 point perspectives as well as a working knowledge of |Blender|.
+
+
 .. |Perspective Plotter| raw:: html
 
    <a href="https://blendermarket.com/products/perspective-plotter" target="_blank">Perspective Plotter</a>
