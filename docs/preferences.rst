@@ -86,3 +86,30 @@ Show Axis Lines
 -----------------------
 
 You can display X/Y/Z axis lines when moving a vertex or object if it aids placement.
+
+
+======================================================
+Mouse Sensitivity Preferences
+======================================================
+
+These parameters change how close the mouse needs to be to change a control point.
+
+Axis Point Sensitivity
+----------------------------------------------
+
+How close to the Axis Point the mouse needs to be.
+
+Grid Point Sensitivity
+----------------------------------------------
+
+How close to the Grid Point the mouse needs to be.
+
+Principal Point Sensitivity
+----------------------------------------------
+
+How close to the Principal Point the mouse needs to be.
+
+Measuring Point Sensitivity
+----------------------------------------------
+
+How close to the Measuring Point the mouse needs to be.
