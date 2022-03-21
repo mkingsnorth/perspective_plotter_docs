@@ -3,6 +3,15 @@ Animation
 #####################################
 
 
+
+
+|Video Link|
+
+.. |Video Link| raw:: html
+
+   <a href="https://youtu.be/c94K2NGN_Lg" target="_blank">Video Link</a>
+
+
 .. image:: images/animation.jpg
     :alt: Animation
 

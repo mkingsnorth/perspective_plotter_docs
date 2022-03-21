@@ -8,6 +8,12 @@ This section overviews some additional tools that are also part of the add-on.
 Move Along View
 ======================================================
 
+|Video Link|
+
+.. |Video Link| raw:: html
+
+   <a href="https://youtu.be/o-vWs69_G-g" target="_blank">Video Link</a>
+
 **Keyboard Shortcut**: :kbd:`Ctrl-Y`
 
 .. figure:: images/move_along_view.gif

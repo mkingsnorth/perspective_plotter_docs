@@ -2,6 +2,13 @@
 Quick Start
 #################
 
+|Video Link|
+
+.. |Video Link| raw:: html
+
+   <a href="https://youtu.be/MNyxm5eU8Sg?t=63" target="_blank">Video Link</a>
+
+
 #. Open Blender and :ref:`install<Installation>` the add-on if you haven't already.
 #. Press '0' to switch to the Camera view, or go to *View* -> *Cameras* -> *Active Camera*.
 #. Press the 'n' key to open the viewport's side tabs if they are not visible already.

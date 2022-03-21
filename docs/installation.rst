@@ -3,6 +3,13 @@ Installation
 #############
 
 
+|Video Link|
+
+.. |Video Link| raw:: html
+
+   <a href="https://youtu.be/MNyxm5eU8Sg?t=41" target="_blank">Video Link</a>
+
+
 #. Go to *Edit* -> *Preferences*.
 #. Select the *Add-ons* tab on the left if it is not already.
 #. Select the *Install...* button along the top.
