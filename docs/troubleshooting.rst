@@ -73,6 +73,22 @@ Does this add-on support lens distortion models?
 
 As Blender applies Lens distortion in post production, at the moment this is a future requirement and you would need to look at Blender's Movie Clip editor to resolve the distortion before doing a camera match.
 
+
+============================================================================================================
+My control points appear to wobble.  What could this be?
+============================================================================================================
+
+For very small or very large scale scenes, such as an aerial photo, Blender's Units settings may need to be adjusted so that the add-on can calculate the right level of accuracy.  
+
+Go to the *Scene* -> *Units* section of Blender's properties tab, and look at the |Unit Scale| setting.  Change this to larger or smaller orders of magnitude (e.g. 10 or 0.1) will change the relative scale of units in Blender.  For instance, an aerial photo may benefit from having this setting changed to 10.
+
+.. image:: images/unit_scale.jpg
+    :alt: Unit Scale Setting
+
+.. |unit scale| raw:: html
+
+   <a href="https://docs.blender.org/manual/en/latest/scene_layout/scene/properties.html#units" target="_blank">Unit Scale</a>
+
 ============================================================================================================
 I cannot make the vanishing Points match a 2D sketch or photo
 ============================================================================================================
