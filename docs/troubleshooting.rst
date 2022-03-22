@@ -80,7 +80,7 @@ My control points appear to wobble.  What could this be?
 
 For very small or very large scale scenes, such as an aerial photo, Blender's Units settings may need to be adjusted so that the add-on can calculate the right level of accuracy.  
 
-Go to the *Scene* -> *Units* section of Blender's properties tab, and look at the |Unit Scale| setting.  Change this to larger or smaller orders of magnitude (e.g. 10 or 0.1) will change the relative scale of units in Blender.  For instance, an aerial photo may benefit from having this setting changed to 10.
+Go to the *Scene* -> *Units* section of Blender's properties tab, and look at the |Unit Scale| setting.  Change this to larger or smaller orders of magnitude (e.g. 10 or 0.1) will change the relative scale of units in Blender.  For instance, an aerial photo may benefit from having this setting changed to 10.  Note that when importing the objects into other scenes, they may need to be scaled up/down by the Unit Scale setting to match the other scene.
 
 .. image:: images/unit_scale.jpg
     :alt: Unit Scale Setting
