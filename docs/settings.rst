@@ -78,6 +78,13 @@ Focal Length value which is pre-calculated in 2 and 3 point perspective modes.  
 Reference Distance
 ------------------------------------------
 
+|ref_dist_video|
+
+.. |ref_dist_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/INqeNav7Cg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 There are parameters that will help you set the camera’s distance from the :ref:`target location`, something that cannot be determined from vanishing points alone.
 
 Default: Camera Distance

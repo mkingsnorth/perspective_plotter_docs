@@ -15,6 +15,7 @@ Setting up perspective lines
 
 When setting up perspective lines try and choose lines in an image that are far apart.  This will give the add-on the best information to estimate camera position.  Lines that are close together can be too parallel and perspective errors can be introduced.
 
+
 ======================================================
 Invalid Configuration
 ======================================================
@@ -33,6 +34,16 @@ To rectify this, keep adjusting the perspective axes until a valid configuration
 .. |here| raw:: html
 
    <a href="https://www.coursera.org/lecture/robotics-perception/how-to-compute-intrinsics-from-vanishing-points-jnaLs" target="_blank">here</a>
+
+======================================================
+Using a reference distance to increase accuracy
+======================================================
+
+|ref_dist_video|
+
+.. |ref_dist_video| raw:: html
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/INqeNav7Cg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ======================================================
 I cannot see the P.Plotter Panel after installation
