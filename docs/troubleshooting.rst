@@ -5,7 +5,6 @@ Tips and Troubleshooting
 .. note::
     If you're having any trouble and it is not answered here, don't hesitate to :ref:`contact us<Contact>`.
 
-
 ======================================================
 I cannot see the P.Plotter Panel after installation
 ======================================================
@@ -16,6 +15,12 @@ The Panel will only appear if you are |viewing though the Active Camera|.
 .. |viewing though the Active Camera| raw:: html
 
    <a href="https://docs.blender.org/manual/en/2.79/editors/3dview/navigate/camera_view.html" target="_blank">viewing though the Active Camera</a>
+
+============================================================================================================
+I cannot see any of the control lines when I click "Plot Perspective"
+============================================================================================================
+
+Try updating your Graphics Cards drivers and if the problem does not go away :ref:`contact us<Contact>`.
 
 
 ========================================================
