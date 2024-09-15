@@ -8,6 +8,15 @@ Preferences
 You can adjust color, line thickness, and other aspects of the add-on by going to *Edit -> Preferences -> Add-ons* and expanding the *Perspective Plotter* entry.
 
 ======================================================
+General Preferences
+======================================================
+
+Hide P.Plotter Panel when not in Camera View
+------------------------------------------------------------
+
+This will hide the Perspective Plotter side viewport panel when you are not in camera view for space saving purposes.
+
+======================================================
 Axis Display Preferences
 ======================================================
 
