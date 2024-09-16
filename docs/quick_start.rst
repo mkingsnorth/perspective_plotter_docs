@@ -21,7 +21,7 @@ Quick Start
     .. image:: images/pplotter_panel.jpg
         :alt: Perspective Plotter Panel
 
-#. Click the button **Plot Perspective** (or *Switch to Camera View* if not in camera view mode). 
+#. Click the button **Plot Perspective**. 
 
 #. The button will now say **Plotting...**. The camera will adjust to a default position with the perspective line control points ready to be adjusted.
 
