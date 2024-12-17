@@ -64,6 +64,24 @@ Using a reference distance to increase accuracy
     <iframe width="560" height="315" src="https://www.youtube.com/embed/INqeNav7Cg4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
+=============================================================
+Sometimes the scene appears upside down.  How do I fix this?
+=============================================================
+
+.. image:: images/axis_upside_down.jpg
+    :alt: Upside Down Axis
+
+This should be resolved by changing the "Vanishing Point 1" and "Vanishing Point 2" settings in the panel:
+
+.. image:: images/vanishing_points_closeup.jpg
+    :alt: Vanishing Points
+
+By changing these, the axis the vanishing points are on will be different.  The third vanishing point is always automatically calculated.  It can take a while to get the correct combination, but this should resolve the issue.  :ref:`Contact us<Contact>` if you have any issues.
+
+.. tip ::
+    Use the axis in the top right of the view as a guide when checking you have the right combination.
+
+
 =====================================================
 How do I set up multiple views on the same object?
 =====================================================
