@@ -37,6 +37,12 @@ Quick Start
     .. tip::
         See the :ref:`tips<Setting up perspective lines>` section for setting up perspective lines optimally.
 
+    .. note::
+        You can also click and drag on the vanishing points themselves to move them.
+
+        .. image:: images/vanishing_point_move.gif
+            :alt: Moving Vanishing Points
+
 #. You can now choose to :ref:`set up a background<Match Background>` image or video, change the :ref:`parameters<parameters>` to your needs, switch to Blender's |quad view| or use |multiple viewports|. Once you're happy, click the **"Plotting..."** button again to switch the tool off. Your camera settings will be remembered for next time.
 
 .. |quad view| raw:: html
